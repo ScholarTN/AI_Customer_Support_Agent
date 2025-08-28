@@ -1,0 +1,77 @@
+/* Main styles */
+.main {
+    padding: 2rem;
+}
+
+.stButton button {
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    padding: 0.5rem 1.5rem;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+
+.stButton button:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+}
+
+/* Header styles */
+.main-header {
+    font-size: 3rem;
+    color: #1f77b4;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-weight: 700;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+}
+
+.sub-header {
+    font-size: 1.5rem;
+    color: #ff7f0e;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+/* Card styles */
+.company-card {
+    background-color: #f0f2f6;
+    padding: 1.5rem;
+    border-radius: 15px;
+    margin-bottom: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.company-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Chat container */
+.chat-container {
+    background-color: #f9f9f9;
+    border-radius: 15px;
+    padding: 1.5rem;
+    height: 600px;
+    overflow-y: auto;
+    box-shadow: inset 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Input styles */
+.stTextInput input {
+    border-radius: 20px;
+    padding: 0.5rem 1rem;
+}
+
+/* Sidebar styles */
+.css-1d391kg {
+    background-color: #f8f9fa;
+    border-right: 1px solid #e9ecef;
+}
+
+/* Success message */
+.stAlert {
+    border-radius: 10px;
+}
